@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium自动化测试教程">
+   <suite-files>
+       <suite-file path="src/test/resources/module/element/element.xml"/>
+   </suite-files>
+</suite>

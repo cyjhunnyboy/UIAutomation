@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web页面元素定位">
+    <test name="使用ID定位页面元素">
+        <groups>
+            <run>
+                <include name="元素定位方式"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="per.cyj.selenium.element.ByIDTest"/>
+            <class name="per.cyj.selenium.element.ByNameTest"/>
+        </classes>
+    </test>
+</suite>

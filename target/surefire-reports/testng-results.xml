@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web页面元素定位" duration-ms="25612" started-at="2019-10-01T17:53:25Z" finished-at="2019-10-01T17:53:51Z">
+    <groups>
+      <group name="元素定位方式">
+        <method signature="ByIDTest.testById()[pri:0, instance:per.cyj.selenium.element.ByIDTest@4e1d422d]" name="testById" class="per.cyj.selenium.element.ByIDTest"/>
+        <method signature="ByNameTest.testByName()[pri:0, instance:per.cyj.selenium.element.ByNameTest@66480dd7]" name="testByName" class="per.cyj.selenium.element.ByNameTest"/>
+      </group> <!-- 元素定位方式 -->
+    </groups>
+    <test name="使用ID定位页面元素" duration-ms="25612" started-at="2019-10-01T17:53:25Z" finished-at="2019-10-01T17:53:51Z">
+      <class name="per.cyj.selenium.element.ByNameTest">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:per.cyj.selenium.element.ByNameTest@66480dd7]" name="initDriver" is-config="true" duration-ms="9207" started-at="2019-10-01T17:53:39Z" finished-at="2019-10-01T17:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="testByName()[pri:0, instance:per.cyj.selenium.element.ByNameTest@66480dd7]" name="testByName" duration-ms="2382" started-at="2019-10-01T17:53:48Z" description="使用name定位元素" finished-at="2019-10-01T17:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByName -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:per.cyj.selenium.element.ByNameTest@66480dd7]" name="quitDriver" is-config="true" duration-ms="782" started-at="2019-10-01T17:53:50Z" finished-at="2019-10-01T17:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- per.cyj.selenium.element.ByNameTest -->
+      <class name="per.cyj.selenium.element.ByIDTest">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:per.cyj.selenium.element.ByIDTest@4e1d422d]" name="initDriver" is-config="true" duration-ms="10072" started-at="2019-10-01T17:53:25Z" finished-at="2019-10-01T17:53:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="testById()[pri:0, instance:per.cyj.selenium.element.ByIDTest@4e1d422d]" name="testById" duration-ms="2316" started-at="2019-10-01T17:53:36Z" description="使用ID定位元素" finished-at="2019-10-01T17:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testById -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:per.cyj.selenium.element.ByIDTest@4e1d422d]" name="quitDriver" is-config="true" duration-ms="836" started-at="2019-10-01T17:53:38Z" finished-at="2019-10-01T17:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- per.cyj.selenium.element.ByIDTest -->
+    </test> <!-- 使用ID定位页面元素 -->
+  </suite> <!-- Web页面元素定位 -->
+  <suite name="Selenium自动化测试教程" duration-ms="0" started-at="2019-10-01T17:53:51Z" finished-at="2019-10-01T17:53:51Z">
+    <groups>
+    </groups>
+  </suite> <!-- Selenium自动化测试教程 -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="使用ID定位页面元素"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.316">
+  <properties />
+  
+  
+            <testcase name="testById" time="2.316" classname="per.cyj.selenium.element.ByIDTest" />
+      
+</testsuite>
